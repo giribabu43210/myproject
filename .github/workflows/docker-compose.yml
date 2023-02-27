@@ -7,9 +7,4 @@ services:
     ports: 
       - 4343:80
       
-   hlcproduct:
-     image: jenkins/jenkins
-     ports: 
-       - 3232:8080
-     links: 
-      uberall: nginx
+ 
