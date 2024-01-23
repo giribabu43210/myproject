@@ -16,7 +16,7 @@ spec:
   initContainers:
   - name: init-myservice
     image: nginx
-    command: ["sleep", "30"]
+    command: ["sleep", "60"]
     volumeMounts:
     - mountPath: /test-ebs
       name: test-volume
